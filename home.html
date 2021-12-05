@@ -180,7 +180,7 @@
     <section class="contact mt-5">
         <div class="container">
             <h3 class="mb-3">Contact ( Duyen )</h3>
-            <form action="" class="row g-3 needs validation" novalidate>
+            <form class="row g-3 needs validation" novalidate>
                 <div class="col-md-4">
                     <label for="name1" class="form-label" >First name</label>
                     <input type="text" id="name1" class="form-control" value="Mark" required>
@@ -218,7 +218,6 @@
                     <select id="selectarea" class="form-select" required>
                         <option selected disabled>Choose</option>
                         <option value="">...</option>
-
                     </select>
                     <div class="invalid-feedback">
                         Select a valid state
@@ -233,8 +232,8 @@
                 </div>
                 <div class="col-12">
                     <div class="form-check">
-                        <label for="form-check-label" id="check" > 
-                        <input type="text" class="form-check-input" form="check" required>
+                        <input type="checkbox" class="form-check-input" id="check" required>
+                        <label for="form-check-label" form="check" > 
                             Agreed
                         </label>
                         <div class="invalid-feedback">
